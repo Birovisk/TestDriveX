@@ -4,7 +4,7 @@
              x:Class="TestDrive.Views.AgendamentoView"
              Title="{Binding Path=Veiculo.nome}">
 
-    <StackLayout padding="25">
+    <StackLayout Padding="25">
         <TableView Intent="Form">
             <TableRoot Title="Agendamento">
                 <TableSection Title="Seus Dados">
